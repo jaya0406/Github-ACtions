@@ -1,0 +1,30 @@
+Push your local code in to repository for the first time:
+open the cmd prompt
+cd project path and press enter
+type git init and press enter
+git add * and press enter
+git commit -m "message" and press enter
+git remote add origin https://github.com/sathish1980/Selenium8AMBaseFramework.git
+git push -u origin master and press enter
+
+How to clone:
+Create a folder in your local machine and get the path of it
+open cmd prompt and type cd folder path and press enter
+git clone repositoryurl(https://github.com/sathish1980/Selenium8AMBaseFramework.git) and press enter
+open the eclipse file--> import
+enter existing maven project and select and click next
+click browser and select the project folder and click select folder button
+click pom.xml check box and click finish
+
+
+Push your local code in to repository :
+open the cmd prompt
+cd project path and press enter
+git add * and press enter
+git commit -m "message" and press enter
+git push -u origin master and press enter
+
+
+How to pull the changes
+open the cmd prompt and type cd and local project file path and press enter
+git pull repositoryurl(https://github.com/sathish1980/Selenium8AMBaseFramework.git) and press enter
