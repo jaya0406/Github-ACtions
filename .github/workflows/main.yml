@@ -1,9 +1,11 @@
 name: Simple GitHub Actions Workflow
-on:[push]
-
+on:
+  push:
+  
 jobs:
   Say Hello:
   runs-on: ubuntu-latest
+  
   steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
